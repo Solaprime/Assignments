@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.blackdiv{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.housegrid{
+    /* background-color: purple; */
+    display: grid;
+    /* grid-template-rows: ; */
+     grid-template-rows: 1fr 1fr ;
+   grid-row-gap: 5px;
+   grid-auto-columns: minmax(500px, auto);
+   grid-auto-rows: minmax(500px, auto);
+
+}
+.topgrid{
+     /* background-color: white; */
+     display: grid;
+     grid-column-gap: 5px;
+     grid-template-columns: 2fr 1fr ;
+}
+.redgrid{
+    background-color: red;
+    height: 100px;
+    
+}
+
+.orangegrid{
+    background-color: orange;
+}
+
+.bottomgrid{
+    /* background-color: purple; */
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 1fr 1fr ;
+}
+.greengrid{
+    background-color: green;
+}
+.bluegrid{
+    /* background-color: blue; */
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 5px;
+    display: grid;
+}
+.bluetopgrid{
+    background-color: blue;
+}
+.bluebottomgrid{
+    background-color: blue;
+}
+

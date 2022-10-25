@@ -1,0 +1,142 @@
+h4{
+    color: red;
+}
+
+.outerdiv{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    
+}
+.whitediv{
+    /* background-color: white; */
+    background-color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+      justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* width: 90vh; */
+    width: 80%;
+    
+}
+
+
+.contentdiv{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    width: 80%;
+  
+    
+
+}
+
+
+.mid-div{
+    background-color: hsl(184, 100%, 22%);
+    height: 60%;
+    padding: 10px;
+
+    
+    
+    
+}
+.left-div{
+ background-color:  hsl(31, 77%, 52%);
+ height: 60%;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ width: 100%;
+ padding: 10px;
+ flex-direction: column;
+ 
+ 
+ 
+
+}
+.right-div{
+     background-color: hsl(179, 100%, 13%);
+     padding: 10px;
+     height: 60%;
+
+    
+}
+
+button{
+    border-radius: 20px;
+    /* margin-top: 50px; */
+    height: 30px;
+  /* border-color: white; */
+  border-color: hsl(0, 0%, 95%);
+
+}
+.innerdiv{
+    color: purple;
+    background-color: yellow;
+    width: 90%;
+    height: 70%;
+    justify-content: start;
+   
+    /* justify-content: center;
+    align-items: center; */
+   
+   display: flex;
+   
+    flex-direction: column;
+    /* height: 70vh;
+    /* width: 90vh; */
+    /* width: 80%;*/ 
+}
+
+
+
+h3{
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 15px;
+   line-height: 1.6; 
+   
+}
+p{
+    color: hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+   line-height: 1.6; 
+   
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.imagediv{
+    background-color: red;
+    width: 100%;
+}
+.buttondiv{
+    background-color: green;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* THE Spacing flosw*/
+/* Correct padding */
+/* Adding font flow  */
+
+
+
+
+
